@@ -58,6 +58,7 @@ $jobs = $stmt->fetchAll();
             <th>Status</th>
             <th>Applied Date</th>
             <th>Notes</th>
+            <th>Actions</th>
         </tr>
         <?php foreach ($jobs as $job): ?>
             <tr>
@@ -66,6 +67,13 @@ $jobs = $stmt->fetchAll();
                 <td><?php echo htmlspecialchars($job['status']); ?></td>
                 <td><?php echo htmlspecialchars($job['applied_date']); ?></td>
                 <td><?php echo htmlspecialchars($job['notes']); ?></td>
+                <td>
+                    <a href="edit_job.php?id=<?php echo $job['id']; ?>">Edit</a>
+                    <a href="delete_job.php?id=<?php echo $job['id']; ?>"
+                        onclick="return confirm('Are you sure you want to delete this?');">
+                        Delete
+                    </a>
+                </td>
             </tr>
         <?php endforeach; ?>
     </table>
