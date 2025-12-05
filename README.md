@@ -5,14 +5,14 @@ Built using **PHP**, **MySQL**, **HTML/CSS**, and designed as a beginner-friendl
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 - User registration & login  
 - Secure password hashing (`password_hash`)  
 - Session-based authentication  
 
-### 📋 Job Management
+### Job Management
 - Add new job applications  
 - Edit existing applications  
 - Delete applications  
@@ -23,42 +23,20 @@ Built using **PHP**, **MySQL**, **HTML/CSS**, and designed as a beginner-friendl
   - Applied date  
   - Notes  
 
-### 🎨 UI / UX
-- Dark-themed, consistent styling  
+### UI / UX
+- Consistent styling  
 - Clean dashboard layout  
 - Simple and efficient UI
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **PHP 8+**
 - **MySQL**
 - **HTML/CSS**
 - **Basic JavaScript**
 - **XAMPP (Apache + MySQL)** — Required for local development
-
----
-
-## 📁 Folder Structure
-
-job-tracker/
-│
-├── public/
-│ ├── dashboard.php
-│ ├── delete_job.php
-│ ├── edit_job.php
-│ ├── login.php
-│ ├── logout.php
-│ └── register.php
-│
-├── sql/
-│ └── jobtracker.sql
-│
-├── src/
-│ └── db.php
-│
-└── README.md
 
 ---
 
@@ -69,8 +47,7 @@ Download and install XAMPP from the official website.
 Make sure **Apache** and **MySQL** are running.
 
 ### **2. Clone the Repository**
-```bash
-git clone https://github.com/<your-username>/job-tracker.git
+git clone https://github.com/<ugonna08>/job-tracker.git
 
 ### **3. Move Project Into XAMPP**
 Place the project folder inside:
